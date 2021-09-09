@@ -1,0 +1,38 @@
+{
+  "name": "frontend_lp",
+  "version": "1.0.0",
+  "description": "Projeto 7- Deteção de colunas de fumo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Colunas",
+    "de",
+    "fumo",
+    "front-end",
+    "back-end",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "David Monteiro, Bruno Silva, Lwana Hugo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.6",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "ws": "^7.2.3"
+  }
+}

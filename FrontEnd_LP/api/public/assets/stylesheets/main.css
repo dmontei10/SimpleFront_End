@@ -1,0 +1,50 @@
+/*esconde os resultados*/
+#id01{
+  display:none;
+}
+
+/*modal do stream*/
+.modal {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.733); /* Black w/ opacity */
+  padding-top: 100px;
+}
+
+/*responsividade do stream*/
+.video {
+  position:relative;
+  top:50px;
+  width: 60%;
+  height:70%;
+}
+
+#header {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+.animate {
+    -webkit-animation: animatezoom 0.3s;
+    animation: animatezoom 0.3s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+
+
